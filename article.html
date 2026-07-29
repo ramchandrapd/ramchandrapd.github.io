@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Article — Fieldnotes</title>
+  <meta name="description" content="Read this article on Fieldnotes.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="article">
+
+  <!-- ============ Site header / navigation ============ -->
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav-brand">Field<span>notes</span></a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="index.html" data-page="home">Home</a></li>
+        <li><a href="articles.html" data-page="articles">Articles</a></li>
+        <li><a href="about.html" data-page="about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="article-main">
+
+    <!-- ============ Article header ============
+         Text content here is a placeholder fallback; js/script.js
+         (renderArticlePage) overwrites it based on ?id= in the URL. -->
+    <header class="article-header">
+      <div class="container-narrow">
+        <span class="eyebrow" id="article-eyebrow">Category</span>
+        <h1 id="article-title">Article title</h1>
+        <div class="article-byline">
+          <span>By <strong id="article-author">Author name</strong></span>
+          <span class="dot" aria-hidden="true"></span>
+          <span id="article-date">Publication date</span>
+          <span class="dot" aria-hidden="true"></span>
+          <span id="article-readtime">Reading time</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- ============ Cover image ============ -->
+    <div class="container-narrow">
+      <figure class="article-cover" id="article-cover">
+        <img src="images/cover-01.svg" alt="Article cover image">
+      </figure>
+    </div>
+
+    <!-- ============ Article body ============
+         Rendered from the article's `content` array — see
+         renderBlock() and renderArticlePage() in js/script.js -->
+    <article class="article-body" id="article-body">
+      <p class="lead">Loading article&hellip;</p>
+    </article>
+
+    <!-- ============ Previous / Next navigation ============ -->
+    <nav class="article-nav" aria-label="Article navigation">
+      <a href="#" class="article-nav-link prev" id="article-prev">
+        <span class="article-nav-label">&larr; Previous</span>
+        <span class="article-nav-title">Previous article title</span>
+      </a>
+      <a href="#" class="article-nav-link next" id="article-next">
+        <span class="article-nav-label">Next &rarr;</span>
+        <span class="article-nav-title">Next article title</span>
+      </a>
+    </nav>
+
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">&copy; <span id="current-year"></span> Fieldnotes. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="mailto:hello@fieldnotes.example">hello@fieldnotes.example</a></li>
+        <li><a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
