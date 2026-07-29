@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fieldnotes — A Personal Publishing Site</title>
+  <meta name="description" content="Fieldnotes is a personal publishing site for essays and short notes on writing, design, and technology.">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+
+  <!-- Fonts: a characterful serif for display type, a clean sans for body/UI text -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home">
+
+  <!-- ============ Site header / navigation ============ -->
+  <header class="site-header">
+    <nav class="nav">
+      <a href="index.html" class="nav-brand">Field<span>notes</span></a>
+
+      <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav-links">
+        <li><a href="index.html" data-page="home">Home</a></li>
+        <li><a href="articles.html" data-page="articles">Articles</a></li>
+        <li><a href="about.html" data-page="about">About</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ============ Hero ============ -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <span class="eyebrow">Essays &amp; short notes</span>
+        <h1>Fieldnotes</h1>
+        <p class="lede">
+          A small, quiet publishing site for long-form thinking about writing, design,
+          and the tools we build our days around. Updated whenever there's something
+          worth saying — not on a schedule.
+        </p>
+        <div class="hero-actions">
+          <a href="articles.html" class="btn">Browse articles</a>
+          <a href="about.html" class="btn btn-outline">About this site</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Featured article ============ -->
+    <section class="section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Featured</h2>
+        </div>
+        <div class="featured" id="featured-article">
+          <!-- Populated by js/script.js — renderFeaturedArticle() -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Latest articles ============ -->
+    <section class="section" style="padding-top: 0;">
+      <div class="container">
+        <div class="section-header">
+          <h2>Latest articles</h2>
+          <a href="articles.html" class="see-all-link">See all articles &rarr;</a>
+        </div>
+        <div class="article-grid" id="latest-articles-grid">
+          <!-- Populated by js/script.js — renderLatestArticles() -->
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ Footer ============ -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-copy">&copy; <span id="current-year"></span> Fieldnotes. All rights reserved.</p>
+      <ul class="footer-links">
+        <li><a href="mailto:hello@fieldnotes.example">hello@fieldnotes.example</a></li>
+        <li><a href="https://github.com/yourusername" target="_blank" rel="noopener">GitHub</a></li>
+        <li><a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener">LinkedIn</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
