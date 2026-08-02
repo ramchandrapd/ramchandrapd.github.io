@@ -211,6 +211,84 @@ const ARTICLES = [
     ],
   },
 ];
+{
+  id: 9,
+  title: "Scientific Writing for Agricultural Research Scientists – Book Summary",
+  excerpt: "A concise overview of Scientific Writing for Agricultural Research Scientists, highlighting the essential principles of planning, writing, and publishing high-quality scientific research.",
+  category: "Book Summary",
+  author: "Ramchandra Poudel",
+  date: "2026-08-02",
+  readTime: 10,
+  image: "images/scientific-writing-cover.jpg",
+  featured: false,
+  content: [
+    {
+      type: "p",
+      lead: true,
+      text: "Clear scientific writing is just as important as good scientific research. A well-designed experiment has little impact if its findings are poorly communicated. Scientific Writing for Agricultural Research Scientists serves as a practical guide for students, researchers, and professionals who want to improve their scientific communication skills."
+    },
+    {
+      type: "h2",
+      text: "What this book covers"
+    },
+    {
+      type: "p",
+      text: "The manual introduces the complete scientific writing process, including planning research publications, organizing scientific manuscripts, writing clear introductions and discussions, presenting tables and figures effectively, referencing and citations, journal submission and peer review, and ethical issues in scientific publishing."
+    },
+    {
+      type: "h2",
+      text: "Why it matters"
+    },
+    {
+      type: "p",
+      text: "Scientific writing is more than following a format—it is about communicating ideas clearly, accurately, and honestly. This book emphasizes logical thinking, concise language, and proper organization, making it valuable for anyone involved in agricultural research."
+    },
+    {
+      type: "h2",
+      text: "Who should read it?"
+    },
+    {
+      type: "ul",
+      items: [
+        "Undergraduate agriculture students",
+        "Postgraduate researchers",
+        "Early-career scientists",
+        "Extension professionals",
+        "Anyone interested in scientific publishing"
+      ]
+    },
+    {
+      type: "h2",
+      text: "Key Takeaways"
+    },
+    {
+      type: "ul",
+      items: [
+        "Good research deserves good writing.",
+        "Clarity is more important than complexity.",
+        "Every section of a scientific paper has a specific purpose.",
+        "Ethical publishing practices are essential.",
+        "Scientific writing improves with continuous practice."
+      ]
+    },
+    {
+      type: "h2",
+      text: "Download the Book"
+    },
+    {
+      type: "p",
+      text: "You can access the complete training manual here: https://drive.google.com/file/d/16YOT4E1abv30nvNOpXPgU0Y2ug94TGvj/view?usp=drivesdk"
+    },
+    {
+      type: "h2",
+      text: "Final Thoughts"
+    },
+    {
+      type: "p",
+      text: "Whether you're preparing your first research report or your hundredth journal article, strong writing skills remain one of the most valuable tools a researcher can develop. This manual provides a practical foundation for communicating scientific knowledge effectively and professionally."
+    }
+  ]
+},
 
 /* -----------------------------------------
    2. Small helpers
