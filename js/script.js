@@ -210,7 +210,6 @@ const ARTICLES = [
       { type: "p", text: "It's a small constraint, but small constraints tend to survive contact with a busy week better than ambitious systems do." },
     ],
   },
-];
 {
   id: 9,
   title: "Scientific Writing for Agricultural Research Scientists – Book Summary",
@@ -289,6 +288,7 @@ const ARTICLES = [
     }
   ]
 },
+   ];
 
 /* -----------------------------------------
    2. Small helpers
